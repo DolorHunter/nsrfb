@@ -39,7 +39,6 @@ def pre_pic(picName):
     im_arr = np.array(reIm.convert('L'))
     threshould = 50  # 噪点控制
     im_arr_num = []  # 偶数位储存字符开始位置, 奇数位储存字符结束位置
-    count = 0  # arr_num的存储位置
     space = 0  # 存储空白像素
     black = True  # 黑白检测模式切换(先是黑检测)
 
@@ -61,19 +60,17 @@ def pre_pic(picName):
                 # 出现黑色即为出现字符
                 if im_arr[i][row] == 0:
                     im_arr_num.append(row)
-                    count = count + 1
                     black = False  # 切换白检测模式
                     continue
             else:
                 # 白检测模式(数字结束)
                 if im_arr[i][row] == 255:
                     space = space + 1
-        if space == 28:
-            im_arr_num.append(row)
-            count = count + 1
-            black = True  # 切换黑模式
-        # space归零
-        space = 0
+            if space == 28:
+                im_arr_num.append(row)
+                black = True  # 切换黑模式
+            # space归零
+            space = 0
 
     # 每个数字进行截取, resize, reshape并返回img_ready
     img_ready = []  # 存放多个数字
