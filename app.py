@@ -82,8 +82,9 @@ def pre_pic(picName):
 
 def application():
     print("Running app.py...")
-    picNumber = input("input the number of test pictures:")
+    picNumber = input("input the number of pictures:")
     for i in range(picNumber):
+        img_name = input("input the path of pictures:")
         cut_images = pre_pic(img_name)
         print("The predict number is:")
         for img in cut_images:
