@@ -39,10 +39,11 @@ def pre_pic(picName):
     im_arr = np.array(reIm.convert('L'))
     threshould = 50  # 噪点控制
     im_arr_num = []  # 偶数位储存字符开始位置, 奇数位储存字符结束位置
+    count = 0  # arr_num的存储位置
     space = 0  # 存储空白像素
     black = True  # 黑白检测模式切换(先是黑检测)
 
-	# 图片转化为黑白二色, 并去除噪点(50) + 反相
+	# 图片转化为灰度图, 并去除噪点(50) + 反相
     for i in range(28):
         for j in range(28):
             im_arr[i][j] = 255 - im_arr[i][j]
@@ -60,6 +61,7 @@ def pre_pic(picName):
                 # 出现黑色即为出现字符
                 if im_arr[i][row] == 0:
                     im_arr_num.append(row)
+                    count = count + 1
                     black = False  # 切换白检测模式
                     continue
             else:
@@ -68,6 +70,7 @@ def pre_pic(picName):
                     space = space + 1
             if space == 28:
                 im_arr_num.append(row)
+                count = count + 1
                 black = True  # 切换黑模式
             # space归零
             space = 0
@@ -89,9 +92,10 @@ def pre_pic(picName):
 
 ################################################################
 
-	nm_arr = cur_detect.reshape([1, 784])
-	nm_arr = nm-arr.astype(np.float32)	
-	cur_ready = np.multiply(cur_detect, 1.0/255.0)
+	    cur_arr = np.array(cur_detect.comvert('L'))
+	    nm_arr = cur_arr.reshape([1, 784])
+	    nm_arr = nm-arr.astype(np.float32)
+	    cur_ready = np.multiply(cur_detect, 1.0/255.0)
 
 ################################################################
 
@@ -107,7 +111,6 @@ def application():
     for img in cut_images:
         detect_number = restore_model(img)
         print(detect_number, end=' ')
-
 
 
 def main():
