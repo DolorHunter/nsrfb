@@ -82,13 +82,20 @@ def pre_pic(picName):
 
 def application():
     print("Running app.py...")
-    img_name = '18.jpg'
-    cut_images = pre_pic(img_name)
-    print("The predict number is:")
-    for img in cut_images:
-        detect_number = restore_model(img)
-        print(detect_number, end=' ')
+    picNumber = input("input the number of test pictures:")
+    for i in range(picNumber):
+        cut_images = pre_pic(img_name)
+        print("The predict number is:")
+        for img in cut_images:
+            detect_number = restore_model(img)
+            print(detect_number, end=' ')
 
+
+    testNum = input("input the number of test pictures:")
+    for i in range(testNum):
+        testPic = raw_input("the path of test picture:")
+        testPicArr = pre_pic(testPic)
+        print ("The predicion number is:", preValue)
 
 
 def main():
