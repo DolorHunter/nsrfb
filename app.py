@@ -92,8 +92,7 @@ def pre_pic(picName):
 
 ################################################################
 
-	cur_arr = np.array(cur_detect.comvert('L'))
-	nm_arr = cur_arr.reshape([1, 784])
+	nm_arr = cur_detect.reshape([1, 784])
 	nm_arr = nm-arr.astype(np.float32)	
 	cur_ready = np.multiply(cur_detect, 1.0/255.0)
 
