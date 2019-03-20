@@ -1,10 +1,16 @@
 # NumberStringsInFinancialBillsRecognizor
 
-基于tf神经网络识别金融票据中的数字串
+	基于tf神经网络识别金融票据中的数字串
 
-本项目为2019大学生计算机设计大赛参赛项目
+	本项目为2019大学生计算机设计大赛参赛项目
 
-待比赛结束后将会把项目完整的释出 敬请期待
+	待比赛结束后将会把项目完整的释出 敬请期待
+
+Developers: 
+
+[DolorHunter](https://github.com/DolorHunter) 
+
+[zyMarshtomp](https://github.com/zyMarshtomp)
 
 ## 设计方案:
 
