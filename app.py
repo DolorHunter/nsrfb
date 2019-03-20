@@ -35,13 +35,14 @@ def restore_model(testPicArr):
 # 白色为255 黑色为0
 def pre_pic(picName):
     img = Image.open(picName)
-    reIm = img.resize((28, 28), Image.ANTIALIAS)
-    im_arr = np.array(reIm.convert('L'))
+    #reIm = img.resize((28, 28), Image.ANTIALIAS)
+    im_arr = np.array(img.convert('L'))
     threshould = 50  # 噪点控制
     im_arr_num = []  # 偶数位储存字符开始位置, 奇数位储存字符结束位置
 
-    for i in range(28):
-        for j in range(28):
+    #反向 ＋ 去噪声
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
             im_arr[i][j] = 255 - im_arr[i][j]
             if im_arr[i][j] < threshould:
                 im_arr[i][j] = 0
