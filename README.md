@@ -6,6 +6,8 @@
 
 待比赛结束后将会把项目完整的释出 敬请期待
 
+___________________________
+
 # Catalogue
 
 __[Developers](#Developers)__
@@ -18,8 +20,9 @@ __[单数字符识别](#单数字符识别)__
 
 __[数字串识别](#数字串识别)__
 
+_________________________________
 
-**Developers** 
+# Developers
 
 [DolorHunter](https://github.com/DolorHunter) 
 
