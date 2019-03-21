@@ -1,6 +1,6 @@
 # NumberStringsInFinancialBillsRecognizor
 
-基于tf神经网络识别金融票据中的手写数字串
+基于卷积神经网络识别金融票据中的手写数字串
 
 本项目为2019大学生计算机设计大赛参赛项目
 
