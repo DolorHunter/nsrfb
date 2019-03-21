@@ -41,7 +41,7 @@ def pre_pic(picName):
 			else: im_arr[i][j]=255
 	
 	nm_arr = im_arr.reshape([1, 784])
-	nm_arr = nm-arr.astype(np.float32)
+	nm_arr = nm_arr.astype(np.float32)
 	img_ready = np.multiply(nm_arr, 1.0/255.0)
 
 	return img_ready
