@@ -87,8 +87,6 @@ def pre_pic(picName):
 
         # cur_detect = im_arr[:, im_arr_num[num]:im_arr_num[num + 1] + 1]
         cur_detect = im_arr[:, left_cut : right_cut]
-        
-        cur_detect = im_arr[:, im_arr_num[num]:im_arr_num[num + 1] + 1]
         cur_detect = Image.fromarray(cur_detect)  # 转为图片
         cur_detect = cur_detect.resize((28, 28), Image.ANTIALIAS)  # 图片resize
         cur_detect = cur_detect.resize([784, 1])
