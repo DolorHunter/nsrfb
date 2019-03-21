@@ -47,13 +47,15 @@ def pre_pic(picName):
 	return img_ready
 
 def application():
-        	print ("Running app.py...")
+        print ("Running app.py...")
 	testNum = input("input the number of test pictures:")
 	for i in range (testNum):
 		testPic = raw_input("the path of test picture:")
 		testPicArr = pre_pic(testPic)
 		print ("The predicion number is:", preValue)
 
+		
+		
 def main():
 	application()
 
