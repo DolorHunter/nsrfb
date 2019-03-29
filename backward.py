@@ -9,7 +9,7 @@ BATCH_SIZE = 200              # 定义每轮喂入神经网络多少张图片
 LEARNING_RATE_BASE = 0.1      # 学习率
 LEARNING_RATE_DECAY = 0.99    # 衰减率
 REGULARIZER = 0.0001          # 正则化系数
-STEPS = 80000                 # 训练80000轮
+STEPS = 200000                 # 训练200,000轮
 MOVING_AVERAGE_DECAY = 0.99   # 滑动平均衰减率
 MODEL_SAVE_PATH = "./model/"  # 模型保存路径
 MODEL_NAME = "mnist_model"    # 模型保存文件名
@@ -44,6 +44,12 @@ def backward(mnist):          # backward函数中读入mnist
     with tf.Session() as sess:        # 在with结构中初始化所有变量
         init_op = tf.global_variables_initializer()
         sess.run(init_op)
+
+        # 断点续训
+        ckpt = tf.train.get_checkpoint_state(MODEL_SAVE_PATH)
+        if ckpt and ckpt.model_checkpoint_path:
+            saver.restore(sess, ckpt.model_checkpoint_path)
+
         for i in range(STEPS):     # 用for循环迭代steps轮
             xs,ys = mnist.train.next_batch(BATCH_SIZE) # 每次读入BATCH_SIZE图片和标签，喂入神经网络进行训练
             _,loss_value,step = sess.run([train_op,loss,global_step],feed_dict={x:xs,y_:ys}) # 必须执行sess.run才能得到模型结果
