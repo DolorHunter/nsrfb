@@ -41,18 +41,20 @@ def pre_pic(picName):
 			else: im_arr[i][j]=255
 	
 	nm_arr = im_arr.reshape([1, 784])
-	nm_arr = nm-arr.astype(np.float32)
+	nm_arr = nm_arr.astype(np.float32)
 	img_ready = np.multiply(nm_arr, 1.0/255.0)
 
 	return img_ready
 
 def application():
-        	print ("Running app.py...")
-	testNum = input("input the number of test pictures:")
-	for i in range (testNum):
-		testPic = raw_input("the path of test picture:")
-		testPicArr = pre_pic(testPic)
-		print ("The predicion number is:", preValue)
+    print ("Running app.py...")
+    testNum = (int)(input("input the number of test pictures:"))
+    for i in range (testNum):
+        testPic = raw_input("the path of test picture:")
+        testPicArr = pre_pic(testPic)
+        print ("The predicion number is:", preValue)
+
+
 
 def main():
 	application()

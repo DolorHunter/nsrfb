@@ -1,4 +1,4 @@
-# coding:utf-8
+﻿# coding:utf-8
 
 import tensorflow as tf
 import numpy as np
@@ -35,13 +35,13 @@ def restore_model(testPicArr):
 # 白色为255 黑色为0
 def pre_pic(picName):
     img = Image.open(picName)
-    reIm = img.resize((28, 28), Image.ANTIALIAS)
-    im_arr = np.array(reIm.convert('L'))
+    #reIm = img.resize((500, 500), Image.ANTIALIAS)
+    im_arr = np.array(img.convert('L'))
     threshould = 50  # 噪点控制
     im_arr_num = []  # 偶数位储存字符开始位置, 奇数位储存字符结束位置
 
-    for i in range(28):
-        for j in range(28):
+    for i in range(im_arr.shape[0]):
+        for j in range(im_arr.shape[1]):
             im_arr[i][j] = 255 - im_arr[i][j]
             if im_arr[i][j] < threshould:
                 im_arr[i][j] = 0
@@ -72,17 +72,33 @@ def pre_pic(picName):
     for num in range(0, len(im_arr_num), 2):
         # 开始：nm_arr_char[i]
         # 结束：nm_arr_char[i+1]+1 因为切片是开区间
-        cur_detect = im_arr[:, im_arr_num[num]:im_arr_num[num + 1] + 1]
+
+        # 中点切片
+        if num == 0:
+            left_cut = 0
+        else:
+            left_cut = (int)((im_arr_num[num - 1] + im_arr_num[num]) / 2)
+
+        if num+2 == len(im_arr_num):
+            right_cut = im_arr.shape[1]
+        else:
+            right_cut = (int)((im_arr_num[num + 1] + im_arr_num[num + 2]) / 2)
+
+        # cur_detect = im_arr[:, im_arr_num[num]:im_arr_num[num + 1] + 1]
+        cur_detect = im_arr[:, left_cut : right_cut]
         cur_detect = Image.fromarray(cur_detect)  # 转为图片
         cur_detect = cur_detect.resize((28, 28), Image.ANTIALIAS)  # 图片resize
-        cur_detect = cur_detect.resize([784, 1])
+        cur_detect = np.array(cur_detect.convert('L'))        
+        cur_detect = cur_detect.reshape([1, 784]) # 图片reshape
+        cur_detect = cur_detect.astype(np.float32)
+        cur_detect = np.multiply(cur_detect, 1.0 / 255.0)
         img_ready.append(cur_detect)  # 加入结果list
     return img_ready
 
 
 def application():
     print("Running app.py...")
-    picNumber = input("input the number of pictures:")
+    picNumber = (int)(input("input the number of pictures:"))
     for i in range(picNumber):
         img_name = input("input the path of pictures:")
         cut_images = pre_pic(img_name)
@@ -90,7 +106,7 @@ def application():
         for img in cut_images:
             detect_number = restore_model(img)
             print(detect_number, end=' ')
-
+        print("\n")
             
 
 
