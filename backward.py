@@ -1,4 +1,4 @@
-#coding:utf-8
+﻿#coding:utf-8
 
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
@@ -9,7 +9,7 @@ BATCH_SIZE = 200              # 定义每轮喂入神经网络多少张图片
 LEARNING_RATE_BASE = 0.1      # 学习率
 LEARNING_RATE_DECAY = 0.99    # 衰减率
 REGULARIZER = 0.0001          # 正则化系数
-STEPS = 200000                 # 训练200,000轮
+STEPS = 150000                 # 训练150,000轮
 MOVING_AVERAGE_DECAY = 0.99   # 滑动平均衰减率
 MODEL_SAVE_PATH = "./model/"  # 模型保存路径
 MODEL_NAME = "mnist_model"    # 模型保存文件名
