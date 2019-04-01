@@ -1,4 +1,4 @@
-# NumberStringsInFinancialBillsRecognizor
+# NumberStringsRecognizerInFinancialBills
 
 基于卷积神经网络识别金融票据中的手写数字串
 
