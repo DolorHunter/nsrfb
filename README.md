@@ -1,5 +1,8 @@
 # NumberStringsRecognizerInFinancialBills
 
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)]()
+
 基于卷积神经网络识别金融票据中的手写数字串
 
 本项目为2019大学生计算机设计大赛参赛项目
@@ -26,7 +29,7 @@ _________________________________
 
 [DolorHunter](https://github.com/DolorHunter) 
 
-[zyMarshtomp](https://github.com/zyMarshtomp)
+[zyMarshtomp](https://github.com/MarshtompCS)
 
 ## 设计方案
 
@@ -45,13 +48,11 @@ _________________________________
 
 模块和环境:	 Tensorflow 1.0   	 Python 3.7 		 PIL 		 Numpy
 
+帮助: `README`(文件和目录说明)和`README.md`帮助文档
+
 下载命令: 
 	
 	$ git clone https://github.com/DolorHunter/NumberStringsInFinancialBillsRecognizor.git
-
-帮助文档: README(文件和目录说明)和README.md帮助文档
-
-运行文件: app.py
 
 
 ## 手写单数字符识别
