@@ -1,7 +1,8 @@
 # NumberStringsRecognizerInFinancialBills
 
-[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE)
+[![LICENSE](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)]()
+[![Python3](https://img.shields.io/badge/Python-3-green.svg)]()
 
 基于卷积神经网络识别金融票据中的手写数字串
 
