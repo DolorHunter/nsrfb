@@ -68,11 +68,8 @@ def pre_pic(picName):
     # im_arr_num:
     # 第一个数字开始在0，结束在1
     # 每个数字步长为2
-    for num in range(0, len(im_arr_num), 2):
-        # 开始：nm_arr_char[i]
-        # 结束：nm_arr_char[i+1]+1 因为切片是开区间
-
-        # 中点切片
+    for num in range(0, len(im_arr_num), 2):  # 中点切片
+        # 开始：nm_arr_char[i]; 结束：nm_arr_char[i+1]+1 因为切片是开区间
         if num == 0:
             left_cut = 0
         else:
@@ -83,12 +80,11 @@ def pre_pic(picName):
         else:
             right_cut = int((im_arr_num[num + 1] + im_arr_num[num + 2]) / 2)
 
-        # cur_detect = im_arr[:, im_arr_num[num]:im_arr_num[num + 1] + 1]
-        cur_detect = im_arr[:, left_cut : right_cut]
+        cur_detect = im_arr[:, left_cut: right_cut]
         cur_detect = Image.fromarray(cur_detect)  # 转为图片
         cur_detect = cur_detect.resize((28, 28), Image.ANTIALIAS)  # 图片resize
         cur_detect = np.array(cur_detect.convert('L'))        
-        cur_detect = cur_detect.reshape([1, 784]) # 图片reshape
+        cur_detect = cur_detect.reshape([1, 784])  # 图片reshape
         cur_detect = cur_detect.astype(np.float32)
         cur_detect = np.multiply(cur_detect, 1.0 / 255.0)
         img_ready.append(cur_detect)  # 加入结果list
