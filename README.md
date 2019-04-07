@@ -1,6 +1,10 @@
-# NumberStringsInFinancialBillsRecognizor
+# NumberStringsRecognizerInFinancialBills
 
-基于tf神经网络识别金融票据中的手写数字串
+[![LICENSE](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)]()
+[![Python3](https://img.shields.io/badge/Python-3-green.svg)]()
+
+基于卷积神经网络识别金融票据中的手写数字串
 
 本项目为2019大学生计算机设计大赛参赛项目
 
@@ -8,9 +12,9 @@
 
 ___________________________
 
-# Catalogue
+# 目录
 
-__[Developers](#Developers)__
+__[开发人员名单](#开发人员名单)__
 
 __[设计方案](#设计方案)__
 
@@ -22,11 +26,11 @@ __[手写数字串识别](#手写数字串识别)__
 
 _________________________________
 
-# Developers
+# 开发人员名单
 
 [DolorHunter](https://github.com/DolorHunter) 
 
-[zyMarshtomp](https://github.com/zyMarshtomp)
+[zyMarshtomp](https://github.com/MarshtompCS)
 
 ## 设计方案
 
@@ -45,13 +49,11 @@ _________________________________
 
 模块和环境:	 Tensorflow 1.0   	 Python 3.7 		 PIL 		 Numpy
 
+帮助: `README`(文件和目录说明)和`README.md`帮助文档
+
 下载命令: 
 	
 	$ git clone https://github.com/DolorHunter/NumberStringsInFinancialBillsRecognizor.git
-
-帮助文档: README(文件和目录说明)和README.md帮助文档
-
-运行文件: app.py
 
 
 ## 手写单数字符识别
@@ -72,10 +74,6 @@ _________________________________
 
 **预处理:**
 
-`大图变形:`
-
-通过对于照片的预处理, 将不同尺寸, 不懂信息的图像转为黑白二色的28*28图片.
-
 `反相, 去噪声:`
 
 预处理中将图片黑白颠倒, 并去除噪声, 故可识别的图片为白底黑字, 符合日常使用需求.
@@ -83,11 +81,11 @@ _________________________________
 `切片:`
 
 假定数字串的每个数字之间存在空隙. 图片从左到右逐列识别, 当图片开始出现黑色时, 认为单数字符出现, 标记该列为出现单数字符的列, 并储存; 当图片全列为白
-时, 认为单数字符结束, 标记该列为单数字符消失的列, 并储存. 为了便于说明, 将识别黑色(出现)称为黑检测, 将识别白色(结束)称为白检测. 黑白检测通过bool型变量进行切换. 将数字串的个数和位置信息存储于一维数组.
+时, 认为单数字符结束, 标记该列为单数字符消失的列, 并储存. 为了便于说明, 将识别黑色(出现)称为黑检测, 将识别白色(结束)称为白检测. 黑白检测通过bool型变量进行切换. 将数字串的个数和位置信息存储于一维数组. 利用一维数组的数据进行中值切片.
 
 `小图变形:`
 
-对于一维数组中的信息进行提取, 将每一个单数字符存储至一个二维数组. 将二维数组变形成28*28, 再将二维数组变形成784*1的数组, 传入模型进行识别.
+对于一维数组中的信息进行提取, 将每一个单数字符存储至一个二维数组. 将二维数组变形成28*28, 再将二维数组变形成1*784的数组, 传入模型进行识别.
 
 `小图输入单子符识别模型`
 

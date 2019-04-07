@@ -41,6 +41,11 @@ def backward(mnist):          # backward函数中读入mnist
 
     saver = tf.train.Saver()  # 实例化Saver
 
+    # 断点续训
+    ckpt = tf.train.get_checkpoint_state(MODEL_SAVE_PATH)
+    if ckpt and ckpt.model_checkpoint_path:
+        saver.restore(sess, ckpt.model_checkpoint_path)
+    
     with tf.Session() as sess:        # 在with结构中初始化所有变量
         init_op = tf.global_variables_initializer()
         sess.run(init_op)
