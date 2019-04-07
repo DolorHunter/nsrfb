@@ -34,10 +34,10 @@ def capture_date(picName):
     img = Image.open(picName)
     im_arr = np.array(img.convert('L'))
     # 捕捉日期 (计算比例)
-    up_cut = int((250/3255)*im_arr.shape[1])
-    down_cut = int((680/3255)*im_arr.shape[1])
-    left_cut = int((4160/6200)*im_arr.shape[0])
-    right_cut = int((6100/6200)*im_arr.shape[0])
+    up_cut = int((250 / 3255) * im_arr.shape[0])
+    down_cut = int((670 / 3255) * im_arr.shape[0])
+    left_cut = int((4190 / 6200) * im_arr.shape[1])
+    right_cut = int((6100 / 6200) * im_arr.shape[1])
     cur_capture = im_arr[up_cut: down_cut, left_cut: right_cut]
     cur_capture = Image.fromarray(cur_capture)  # 转为图片
     return cur_capture
@@ -48,10 +48,10 @@ def capture_amount(picName):
     img = Image.open(picName)
     im_arr = np.array(img.convert('L'))
     # 捕捉金额 (计算比例)
-    up_cut = int((1455/3255)*im_arr.shape[1])
-    down_cut = int((1780/3255)*im_arr.shape[1])
-    left_cut = int((4645/6200)*im_arr.shape[0])
-    right_cut = int((6030/6200)*im_arr.shape[0])
+    up_cut = int((1455/3255)*im_arr.shape[0])
+    down_cut = int((1780/3255)*im_arr.shape[0])
+    left_cut = int((4645/6200)*im_arr.shape[1])
+    right_cut = int((6030/6200)*im_arr.shape[1])
     cur_capture = im_arr[up_cut: down_cut, left_cut: right_cut]
     cur_capture = Image.fromarray(cur_capture)  # 转为图片
     return cur_capture
@@ -65,10 +65,10 @@ def capture_date(picName):
     img = Image.open(picName)
     im_arr = np.array(img.convert('L'))
     # 捕捉金额 (按比例计算)
-    up_cut = int((1455 / 3255) * im_arr.shape[1])
-    down_cut = int((1780 / 3255) * im_arr.shape[1])
-    left_cut = int((4645 / 6200) * im_arr.shape[0])
-    right_cut = int((6030 / 6200) * im_arr.shape[0])
+    up_cut = int((250 / 3255) * im_arr.shape[0])
+    down_cut = int((670 / 3255) * im_arr.shape[0])
+    left_cut = int((4190 / 6200) * im_arr.shape[1])
+    right_cut = int((6100 / 6200) * im_arr.shape[1])
     im_arr = im_arr[up_cut: down_cut, left_cut: right_cut]  # 捕捉后存入im_arr
     threshould = 50  # 噪点控制
     im_arr_num = []  # 偶数位储存字符开始位置, 奇数位储存字符结束位置
@@ -128,10 +128,10 @@ def capture_amount(picName):
     img = Image.open(picName)
     im_arr = np.array(img.convert('L'))
     # 捕捉金额 (按比例计算)
-    up_cut = int((1455 / 3255) * im_arr.shape[1])
-    down_cut = int((1780 / 3255) * im_arr.shape[1])
-    left_cut = int((4645 / 6200) * im_arr.shape[0])
-    right_cut = int((6030 / 6200) * im_arr.shape[0])
+    up_cut = int((1455 / 3255) * im_arr.shape[0])
+    down_cut = int((1780 / 3255) * im_arr.shape[0])
+    left_cut = int((4645 / 6200) * im_arr.shape[1])
+    right_cut = int((6030 / 6200) * im_arr.shape[1])
     im_arr = im_arr[up_cut: down_cut, left_cut: right_cut]  # 捕捉后存入im_arr
     threshould = 50  # 噪点控制
     im_arr_num = []  # 偶数位储存字符开始位置, 奇数位储存字符结束位置
@@ -195,7 +195,7 @@ def application():
             print(detect_number, end=' ')
         print("\n")
         cut_images = capture_amount(img_name)
-        print("The predict date is:", end=' ')
+        print("The predict amount is:", end=' ')
         for img in cut_images:
             detect_number = restore_model(img)
             print(detect_number, end=' ')
