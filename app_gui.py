@@ -7,13 +7,13 @@ from PIL import Image, ImageTk
 import app
 
 
-class App:
+class app_gui:
     def __init__(self, master):
         self.frame = Frame(master)
         self.frame.pack()
         self.file_path = None     # 文件夹路径
         self.file_name = None     # 文件名
-        self.img_label = None     # 图片
+        self.img = None           # 图片
         self.date = []            # 预测的日期
         self.amount = []          # 预测的金额
         self.path_label = Label(self.frame, text="目标路径:").grid(row=0, column=0)
@@ -21,7 +21,8 @@ class App:
         self.path_button = Button(self.frame, text="    浏览文件    ", command=self.analysis_image).grid(row=0, column=2)
         self.path_button = Button(self.frame, text="    选择路径    ", command=self.select_path).grid(row=0, column=3)
         self.quit_button = Button(self.frame, text="退出", command=quit).grid(row=0, column=4)
-        self.image_label = Label(self.frame, image=self.img_label).grid(row=1, column=0)
+        self.image_label = Label(self.frame, image=self.img).grid(row=1, column=0)
+
         self.date_label = Label(self.frame, text=self.date).grid(row=2, column=0)
         self.amount_label = Label(self.frame, text=self.amount).grid(row=3, column=0)
 
@@ -33,18 +34,20 @@ class App:
         root.geometry("%dx%d+%d+%d" % (w, h, x, y))
 
     def select_file(self):
-        self.file_name = filedialog.askopenfile()
+        self.file_name = filedialog.askopenfilename()
+        print(self.file_name)
 
     def select_path(self):
         self.file_path = filedialog.askdirectory()
+        print(self.file_path)
         self.file_path.set(self.file_path)
 
     def open_image(self):
         open_img = Image.open(self.file_name)
-        img = ImageTk.PhotoImage(image=open_img)  # 处理格式
-        self.img_label = Label(self.frame, text="Image", image=img)
+        self.img = ImageTk.PhotoImage(image=open_img)  # 处理格式
         # 不写会炸, 写了还是炸的神奇语句..
-        self.img_label.image = img
+        self.img.image = self.img
+        print(self.img)
 
     def print_date(self):
         cut_images = app.capture_date(self.file_name)
@@ -66,6 +69,6 @@ class App:
 
 
 root = Tk(className="基于卷积神经网络识别金融票据中的数字串")
-app = App(root)
-app.center_window(500, 300)
+app_gui = app_gui(root)
+app_gui.center_window(500, 300)
 root.mainloop()
