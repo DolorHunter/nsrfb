@@ -6,7 +6,8 @@ import forward
 import backward
 TEST_INTERVAL_SECS = 5
 
-#用于实时监测准确度的测试程序
+
+# 用于实时监测准确度的测试程序
 def test(mnist):
 	with tf.Graph().as_default() as g:
 		x = tf.placeholder(tf.float32, [None, forward.INPUT_NODE])
@@ -33,9 +34,11 @@ def test(mnist):
 					return 
 			time.sleep(TEST_INTERVAL_SECS)
 
+
 def main():
 	mnist = input_data.read_data_sets("./data/", one_hot=True)
 	test(mnist)
+
 
 if __name__ == '__main__':
 	main()
