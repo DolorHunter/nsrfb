@@ -16,10 +16,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="230">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
-                <element signature="e#17#37#0" expanded="true" />
+                <element signature="e#17#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,9 +62,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1588" />
-    <option name="width" value="1625" />
-    <option name="height" value="1722" />
+    <option name="x" value="1586" />
+    <option name="width" value="1627" />
+    <option name="height" value="1724" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,6 +85,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,6 +254,9 @@
       <module name="NumberStringsInFinancialBillsRecognizor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -304,7 +307,8 @@
       <workItem from="1554617875312" duration="4854000" />
       <workItem from="1554632838608" duration="104000" />
       <workItem from="1554644400453" duration="1356000" />
-      <workItem from="1554682546725" duration="17282000" />
+      <workItem from="1554682546725" duration="17674000" />
+      <workItem from="1554709985381" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -376,11 +380,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554698681429</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="04.08.13.35 - GUI framework">
+      <created>1554701741955</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554701741955</updated>
+    </task>
+    <task id="LOCAL-00012" summary="04.08.13.38 - GUI framework debug&#10;self.xxxx = None">
+      <created>1554701958063</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554701958063</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51266000" />
+    <option name="totallyTimeSpent" value="53989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,10 +410,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16026106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16243654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -410,7 +427,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003626" side_tool="true" weight="0.27102804" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.28193146" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.28152493" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,7 +470,9 @@
     <MESSAGE value="04.07.15.27" />
     <MESSAGE value="04.08.10.57" />
     <MESSAGE value="04.08.12.39 - GUI framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.08.12.39 - GUI framework" />
+    <MESSAGE value="04.08.13.35 - GUI framework" />
+    <MESSAGE value="04.08.13.38 - GUI framework debug&#10;self.xxxx = None" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.08.13.38 - GUI framework debug&#10;self.xxxx = None" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554524200289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -527,9 +546,7 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pic/mainwindow.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/mainwindow.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -562,10 +579,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="230">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
-            <element signature="e#17#37#0" expanded="true" />
+            <element signature="e#17#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
