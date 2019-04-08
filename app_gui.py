@@ -13,11 +13,11 @@ class App:
         self.frame = Frame(master)
         self.frame.pack()
         # TEST!!
-        self.file_path = ""     # 文件夹路径
-        self.file_name = ""     # 文件名
-        self.img_label = ""     # 图片
-        self.date_label = ""    # 预测的日期
-        self.amount_label = ""  # 预测的金额
+        self.file_path = None     # 文件夹路径
+        self.file_name = None     # 文件名
+        self.img_label = None     # 图片
+        self.date_label = None    # 预测的日期
+        self.amount_label = None  # 预测的金额
         # TEST!!
         self.path_label = Label(self.frame, text="目标路径:")
         self.path_label.pack(side=LEFT)
