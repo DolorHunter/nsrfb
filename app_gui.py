@@ -20,11 +20,6 @@ class app_gui:
         self.file_button = Button(self.frame, text="    浏览文件    ", command=self.analysis_image).grid(row=0, column=2)
         self.help_button = Button(self.frame, text="    帮助    ", command=self.help).grid(row=0, column=3)
         self.quit_button = Button(self.frame, text="退出", command=quit).grid(row=0, column=4)
-        self.image_label = Label(self.frame, image=self.img).grid(row=1, column=0)
-        self.date_label = Label(self.frame, text="(预测)日期为:").grid(row=2, column=0)
-        self.date = Label(self.frame, text=self.date).grid(row=2, column=1)
-        self.date_label = Label(self.frame, text="(预测)金额为:").grid(row=3, column=0)
-        self.amount = Label(self.frame, text=self.amount).grid(row=3, column=1)
 
     def center_window(self, w=300, h=200):
         ws = root.winfo_screenwidth()
@@ -41,10 +36,19 @@ class app_gui:
         print("file_name:", self.file_name)
 
     def open_image(self):
-        open_img = Image.open(self.file_name)
-        self.img = ImageTk.PhotoImage(image=open_img)  # 处理格式
+        image = Image.open(self.file_name)
+
+        ##  resize 调一下
+
+        # 图像缩小显示，scale:缩放比例
+        scale = max(200 / image.size[0], 100 / image.size[1])
+        width = int(image.size[0] * scale)
+        height = int(image.size[1] * scale)
+        image = image.resize((width, height), Image.ANTIALIAS)
+        self.img = ImageTk.PhotoImage(image=image)  # 处理格式
         # 不写会炸, 写了还是炸的神奇语句..
         self.img.image = self.img
+        self.image_label = Label(self.frame, image=self.img).grid(row=1)
         print("img:", self.img)
 
     def print_date(self):
@@ -52,6 +56,8 @@ class app_gui:
         for img in cut_images:
             detect_number = app.restore_model(img)
             self.date.append(detect_number)
+        self.date_label = Label(self.frame, text="(预测)日期为:").grid(row=2, column=0)
+        self.date = Label(self.frame, text=self.date).grid(row=2, column=1)
         print("date[]:", self.date)
 
     def print_amount(self):
@@ -59,6 +65,8 @@ class app_gui:
         for img in cut_images:
             detect_number = app.restore_model(img)
             self.amount.append(detect_number)
+        self.amount_label = Label(self.frame, text="(预测)金额为:").grid(row=3, column=0)
+        self.amount = Label(self.frame, text=self.amount).grid(row=3, column=1)
         print("amount[]:", self.amount)
 
     def analysis_image(self):
