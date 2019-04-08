@@ -16,22 +16,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+            <state relative-caret-position="253">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#17#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="201" column="19" lean-forward="true" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
-              <folding>
-                <element signature="e#16#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app_gui">
+  <component name="RunManager" selected="Python.app_num_str">
     <configuration name="GUI_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NumberStringsInFinancialBillsRecognizor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,9 +169,6 @@
       <module name="NumberStringsInFinancialBillsRecognizor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -240,6 +225,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="app_num_str" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NumberStringsInFinancialBillsRecognizor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_num_str.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="exp2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NumberStringsInFinancialBillsRecognizor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,6 +290,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app_num_str" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.app_num_ch" />
         <item itemvalue="Python.exp2" />
@@ -320,7 +325,7 @@
       <workItem from="1554632838608" duration="104000" />
       <workItem from="1554644400453" duration="1356000" />
       <workItem from="1554682546725" duration="17674000" />
-      <workItem from="1554709985381" duration="3174000" />
+      <workItem from="1554709985381" duration="5453000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -413,11 +418,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554712512783</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="04.08.16.47 - GUI framework debug&#10;&#10;No more names conflict">
+      <created>1554713257472</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554713257472</updated>
+    </task>
+    <task id="LOCAL-00015" summary="04.08.17.23 - GUI framework debug&#10;&#10;Add Checkpoint and delete useless &quot;path&quot;">
+      <created>1554715460634</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554715460634</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54832000" />
+    <option name="totallyTimeSpent" value="57111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,7 +450,7 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16243654" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16243654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -442,11 +461,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32844576" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32844576" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003626" side_tool="true" weight="0.27102804" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.26246333" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" weight="0.29178885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -492,7 +511,9 @@
     <MESSAGE value="04.08.13.35 - GUI framework" />
     <MESSAGE value="04.08.13.38 - GUI framework debug&#10;self.xxxx = None" />
     <MESSAGE value="04.08.16.35 - GUI framework debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.08.16.35 - GUI framework debug" />
+    <MESSAGE value="04.08.16.47 - GUI framework debug&#10;&#10;No more names conflict" />
+    <MESSAGE value="04.08.17.23 - GUI framework debug&#10;&#10;Add Checkpoint and delete useless &quot;path&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.08.17.23 - GUI framework debug&#10;&#10;Add Checkpoint and delete useless &quot;path&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554524200289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -553,16 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_num_str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="103" column="19" selection-start-line="92" selection-end-line="103" selection-end-column="19" />
-          <folding>
-            <element signature="e#16#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -589,8 +600,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="356">
           <caret line="201" column="19" lean-forward="true" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_num_str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
           <folding>
             <element signature="e#16#39#0" expanded="true" />
           </folding>
@@ -599,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state relative-caret-position="253">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#17#38#0" expanded="true" />
           </folding>
