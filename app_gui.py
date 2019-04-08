@@ -27,7 +27,7 @@ class App:
         self.path_button.pack(side=LEFT)
         self.path_button = Button(self.frame, text="选择路径", command=self.select_path)
         self.path_button.pack(side=LEFT)
-        self.quit_button = Button(self.frame, text="  QUIT  ", command=quit)
+        self.quit_button = Button(self.frame, text="  退出  ", command=quit)
         self.quit_button.pack(side=RIGHT)
 
     def center_window(self, w=300, h=200):
