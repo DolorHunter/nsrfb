@@ -1,7 +1,7 @@
 # NumberStringsRecognizerInFinancialBills
 
 [![LICENSE](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)]()
+[![Platform](https://img.shields.io/badge/Platform-windows-lightgrey.svg)]()
 [![Python3](https://img.shields.io/badge/Python-3-green.svg)]()
 
 基于卷积神经网络识别金融票据中的手写数字串
@@ -30,7 +30,7 @@ _________________________________
 
 [DolorHunter](https://github.com/DolorHunter) 
 
-[zyMarshtomp](https://github.com/MarshtompCS)
+[MarshtompCS](https://github.com/MarshtompCS)
 
 ## 设计方案
 
@@ -53,12 +53,12 @@ _________________________________
 
 下载命令: 
 	
-	$ git clone https://github.com/DolorHunter/NumberStringsInFinancialBillsRecognizor.git
+	$ git clone https://github.com/DolorHunter/NumberStringsRecognizorInFinancialBills.git
 
 
 ## 手写单数字符识别
 
-方案参照了主流的神经网络设计八股(准备, 前传, 反传, 迭代)进行总体设计. 
+手写单数字符识别的方案参照了主流的神经网络设计八股(准备, 前传, 反传, 迭代)进行总体设计. 
 
 通过调用tensorflow的库函数来实现神经网络的参数优化和模型训练以达到识别数字的功能. 我使用mnist数据集对模型参数进行训练. mnist数据集有超过60000个标记样本以供训练. 同时mnist数据集的可靠性也很高, 很适合作为项目的数据集.
 
@@ -68,9 +68,11 @@ _________________________________
 
 测试应用的图片文件储存与pic目录, 为手写数字(白底黑字), 用来测试模型的识别的准确性, 也可以根据实际情况上网下载图片进行识别测试.
 
-方案通过app.py文件调用已经训练好的模型对自定义的数字图片进行识别. 经过测试, 识别成功率超过了98.01%, 超过了预期的设计构想. 方案成功.
+通过app_num_ch.py文件调用已经训练好的模型对自定义的单数字符图片进行识别. 经过测试, 识别成功率超过了98.01%, 超过了预期的设计构想. 方案成功.
 
 ## 手写数字串识别 
+
+通过对手写数字串进行预处理，使手写数字串转化为多个单数字符。再将单数字符分别传入单数字符识别模型进行计算。
 
 **预处理:**
 
@@ -92,3 +94,5 @@ _________________________________
 **输出**
 
 `输出预测的手写数字串结果. 理论识别率为98.01%^n.`
+
+通过app_num_str.py文件调用对手写数字串进行预处理，使手写数字串转化为多个单数字符。再将单数字符分别传入单数字符识别模型进行计算。用已经训练好的模型对自定义的单数字符图片进行识别. 经过测试, 识别成功率超过了98.01%^n.
