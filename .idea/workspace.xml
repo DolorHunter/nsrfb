@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="04.08.18.01 - GUI framework almost done&#10;&#10;Add resize">
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_gui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,34 +15,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+            <state relative-caret-position="1035">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="e#17#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="200" column="18" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="18" />
-              <folding>
-                <element signature="e#16#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/OneDrive - mail.hfut.edu.cn/文档/Tencent Files/979523212/FileRecv/GUI_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="48" column="61" selection-start-line="46" selection-start-column="16" selection-end-line="48" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -358,7 +333,7 @@
       <workItem from="1554682546725" duration="17674000" />
       <workItem from="1554709985381" duration="8401000" />
       <workItem from="1554783709103" duration="112000" />
-      <workItem from="1554784537437" duration="655000" />
+      <workItem from="1554784537437" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -479,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554717732545</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="04.09.12.45 - GUI framework done&#10;&#10;Optimized resize and add columnspan">
+      <created>1554785465324</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554785465324</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60826000" />
+    <option name="totallyTimeSpent" value="61130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,8 +478,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16896302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16896302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -512,7 +495,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003626" side_tool="true" weight="0.27102804" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.29178885" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.29178885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,7 +544,8 @@
     <MESSAGE value="04.08.16.47 - GUI framework debug&#10;&#10;No more names conflict" />
     <MESSAGE value="04.08.17.23 - GUI framework debug&#10;&#10;Add Checkpoint and delete useless &quot;path&quot;" />
     <MESSAGE value="04.08.18.01 - GUI framework almost done&#10;&#10;Add resize" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.08.18.01 - GUI framework almost done&#10;&#10;Add resize" />
+    <MESSAGE value="04.09.12.45 - GUI framework done&#10;&#10;Optimized resize and add columnspan" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.09.12.45 - GUI framework done&#10;&#10;Optimized resize and add columnspan" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554524200289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -646,16 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive - mail.hfut.edu.cn/文档/Tencent Files/979523212/FileRecv/GUI_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="48" column="61" selection-start-line="46" selection-start-column="16" selection-end-line="48" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -666,10 +640,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/OneDrive - mail.hfut.edu.cn/文档/Tencent Files/979523212/FileRecv/GUI_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="48" column="61" selection-start-line="46" selection-start-column="16" selection-end-line="48" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+        <state relative-caret-position="1035">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
             <element signature="e#17#38#0" expanded="true" />
           </folding>
