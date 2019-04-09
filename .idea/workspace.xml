@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+            <state relative-caret-position="69">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
               <folding>
                 <element signature="e#17#38#0" expanded="true" />
               </folding>
@@ -336,7 +336,7 @@
       <workItem from="1554783709103" duration="112000" />
       <workItem from="1554784537437" duration="959000" />
       <workItem from="1554785603340" duration="238000" />
-      <workItem from="1554785977082" duration="1147000" />
+      <workItem from="1554785977082" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -471,11 +471,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554785782038</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD">
+      <created>1554787296755</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554787296755</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62515000" />
+    <option name="totallyTimeSpent" value="63749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,6 +495,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17331399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -555,7 +563,8 @@
     <MESSAGE value="04.08.18.01 - GUI framework almost done&#10;&#10;Add resize" />
     <MESSAGE value="04.09.12.45 - GUI framework done&#10;&#10;Optimized resize and add columnspan" />
     <MESSAGE value="04.09.12.45 - GUI framework done&#10;&#10;Change the filename of app.py to app_bash.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.09.12.45 - GUI framework done&#10;&#10;Change the filename of app.py to app_bash.py" />
+    <MESSAGE value="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554524200289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -653,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+        <state relative-caret-position="69">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding>
             <element signature="e#17#38#0" expanded="true" />
           </folding>
