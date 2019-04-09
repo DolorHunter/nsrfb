@@ -37,18 +37,15 @@ class app_gui:
 
     def open_image(self):
         image = Image.open(self.file_name)
-
-        ##  resize 调一下
-
         # 图像缩小显示，scale:缩放比例
-        scale = max(200 / image.size[0], 100 / image.size[1])
+        scale = max(300 / image.size[0], 200 / image.size[1])
         width = int(image.size[0] * scale)
         height = int(image.size[1] * scale)
         image = image.resize((width, height), Image.ANTIALIAS)
         self.img = ImageTk.PhotoImage(image=image)  # 处理格式
-        # 不写会炸, 写了还是炸的神奇语句..
+        # 不写有几率会炸
         self.img.image = self.img
-        self.image_label = Label(self.frame, image=self.img).grid(row=1)
+        Label(self.frame, image=self.img).grid(row=1, column=0, columnspan=6)
         print("img:", self.img)
 
     def print_date(self):
@@ -56,8 +53,8 @@ class app_gui:
         for img in cut_images:
             detect_number = app.restore_model(img)
             self.date.append(detect_number)
-        self.date_label = Label(self.frame, text="(预测)日期为:").grid(row=2, column=0)
-        self.date = Label(self.frame, text=self.date).grid(row=2, column=1)
+        Label(self.frame, text="(预测)日期为:").grid(row=2, column=0, columnspan=2)
+        Label(self.frame, text=self.date).grid(row=2, column=2, columnspan=2)
         print("date[]:", self.date)
 
     def print_amount(self):
@@ -65,8 +62,8 @@ class app_gui:
         for img in cut_images:
             detect_number = app.restore_model(img)
             self.amount.append(detect_number)
-        self.amount_label = Label(self.frame, text="(预测)金额为:").grid(row=3, column=0)
-        self.amount = Label(self.frame, text=self.amount).grid(row=3, column=1)
+        Label(self.frame, text="(预测)金额为:").grid(row=3, column=0, columnspan=2)
+        Label(self.frame, text=self.amount).grid(row=3, column=2, columnspan=2)
         print("amount[]:", self.amount)
 
     def analysis_image(self):
