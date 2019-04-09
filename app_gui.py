@@ -1,8 +1,8 @@
 # coding:utf-8
 
-
 from tkinter import *
 from tkinter import filedialog
+from tkinter import messagebox
 from PIL import Image, ImageTk
 import app_bash
 
@@ -11,15 +11,20 @@ class app_gui:
     def __init__(self, master):
         self.frame = Frame(master)
         self.frame.pack()
-        self.file_name = None     # 目标路径
-        self.img = None           # 图片
-        self.date = []            # 预测的日期
-        self.amount = []          # 预测的金额
-        self.path_label = Label(self.frame, text="目标路径:").grid(row=0, column=0)
-        self.path_entry = Entry(self.frame, textvariable=self.file_name).grid(row=0, column=1)
-        self.file_button = Button(self.frame, text="    浏览文件    ", command=self.analysis_image).grid(row=0, column=2)
-        self.help_button = Button(self.frame, text="    帮助    ", command=self.help).grid(row=0, column=3)
-        self.quit_button = Button(self.frame, text="退出", command=quit).grid(row=0, column=4)
+        self.file_name = StringVar()     # 目标路径
+        self.img = StringVar()           # 图片
+        self.date = []                   # 预测的日期
+        self.amount = []                 # 预测的金额
+        self.path_label = Label(self.frame, text="目标路径:")
+        self.path_label.grid(row=0, column=0)
+        self.path_entry = Entry(self.frame, textvariable=self.file_name, state="normal")
+        self.path_entry.grid(row=0, column=1)
+        self.file_button = Button(self.frame, text="    浏览文件    ", command=self.analysis_image)
+        self.file_button.grid(row=0, column=2)
+        self.help_button = Button(self.frame, text="    帮助    ", command=self.help)
+        self.help_button.grid(row=0, column=3)
+        self.quit_button = Button(self.frame, text="退出", command=quit)
+        self.quit_button.grid(row=0, column=4)
 
     def center_window(self, w=300, h=200):
         ws = root.winfo_screenwidth()
@@ -29,7 +34,10 @@ class app_gui:
         root.geometry("%dx%d+%d+%d" % (w, h, x, y))
 
     def help(self):
+        messagebox.showwarning('Need Help?', 'NOT GONNA HELP!!')
         print("NOT GONNA HELP!!")
+        # EXTREMELY IMPORTANT DONT DELETE
+        self.help()
 
     def select_file(self):
         self.file_name = filedialog.askopenfilename()
@@ -38,7 +46,7 @@ class app_gui:
     def open_image(self):
         image = Image.open(self.file_name)
         # 图像缩小显示，scale:缩放比例
-        scale = max(300 / image.size[0], 200 / image.size[1])
+        scale = max(300 / image.size[0], 210 / image.size[1])
         width = int(image.size[0] * scale)
         height = int(image.size[1] * scale)
         image = image.resize((width, height), Image.ANTIALIAS)

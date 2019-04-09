@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_gui.py" afterDir="false" />
     </list>
@@ -12,14 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="828">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
-                <element signature="e#17#38#0" expanded="true" />
+                <element signature="e#16#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,6 +41,7 @@
       <find>im_arr</find>
       <find>path</find>
       <find>resize</find>
+      <find>self.file_name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -337,6 +338,7 @@
       <workItem from="1554784537437" duration="959000" />
       <workItem from="1554785603340" duration="238000" />
       <workItem from="1554785977082" duration="2381000" />
+      <workItem from="1554813434081" duration="5358000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -482,7 +484,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63749000" />
+    <option name="totallyTimeSpent" value="69107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,7 +499,7 @@
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17331399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17548949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -512,7 +514,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003626" side_tool="true" weight="0.27102804" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.27419356" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.27272728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -662,10 +664,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="828">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
-            <element signature="e#17#38#0" expanded="true" />
+            <element signature="e#16#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
