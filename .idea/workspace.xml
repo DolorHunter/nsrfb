@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_gui.py" afterDir="false" />
-    </list>
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +335,7 @@
       <workItem from="1554784537437" duration="959000" />
       <workItem from="1554785603340" duration="238000" />
       <workItem from="1554785977082" duration="2381000" />
-      <workItem from="1554813434081" duration="5358000" />
+      <workItem from="1554813434081" duration="5760000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -480,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554787296755</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="04.09.22.28 - app_gui.py DONE&#10;&#10;Fix the bug of the entry and Change the scale of the Image">
+      <created>1554820214433</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554820214433</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69107000" />
+    <option name="totallyTimeSpent" value="69509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,7 +570,8 @@
     <MESSAGE value="04.09.12.45 - GUI framework done&#10;&#10;Optimized resize and add columnspan" />
     <MESSAGE value="04.09.12.45 - GUI framework done&#10;&#10;Change the filename of app.py to app_bash.py" />
     <MESSAGE value="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD" />
+    <MESSAGE value="04.09.22.28 - app_gui.py DONE&#10;&#10;Fix the bug of the entry and Change the scale of the Image" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.09.22.28 - app_gui.py DONE&#10;&#10;Fix the bug of the entry and Change the scale of the Image" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554524200289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
