@@ -4,7 +4,7 @@
 from tkinter import *
 from tkinter import filedialog
 from PIL import Image, ImageTk
-import app
+import app_bash
 
 
 class app_gui:
@@ -17,9 +17,10 @@ class app_gui:
         self.amount = []          # 预测的金额
         self.path_label = Label(self.frame, text="目标路径:").grid(row=0, column=0)
         self.path_entry = Entry(self.frame, textvariable=self.file_name).grid(row=0, column=1)
-        self.file_button = Button(self.frame, text="    浏览文件    ", command=self.analysis_image).grid(row=0, column=2)
-        self.help_button = Button(self.frame, text="    帮助    ", command=self.help).grid(row=0, column=3)
-        self.quit_button = Button(self.frame, text="退出", command=quit).grid(row=0, column=4)
+        self.go_entry = Button(self.frame, text="    确认路径    ", command=self.entry_analysis_image).grid(row=0, column=2)
+        self.file_button = Button(self.frame, text="    浏览文件    ", command=self.chose_analysis_image).grid(row=0, column=3)
+        self.help_button = Button(self.frame, text="    帮助    ", command=self.help).grid(row=0, column=4)
+        self.quit_button = Button(self.frame, text="退出", command=quit).grid(row=0, column=5)
 
     def center_window(self, w=300, h=200):
         ws = root.winfo_screenwidth()
@@ -33,7 +34,6 @@ class app_gui:
 
     def select_file(self):
         self.file_name = filedialog.askopenfilename()
-        print("file_name:", self.file_name)
 
     def open_image(self):
         image = Image.open(self.file_name)
@@ -46,31 +46,42 @@ class app_gui:
         # 不写有几率会炸
         self.img.image = self.img
         Label(self.frame, image=self.img).grid(row=1, column=0, columnspan=6)
-        print("img:", self.img)
 
     def print_date(self):
-        cut_images = app.capture_date(self.file_name)
+        cut_images = app_bash.capture_date(self.file_name)
         for img in cut_images:
-            detect_number = app.restore_model(img)
+            detect_number = app_bash.restore_model(img)
             self.date.append(detect_number)
         Label(self.frame, text="(预测)日期为:").grid(row=2, column=0, columnspan=2)
         Label(self.frame, text=self.date).grid(row=2, column=2, columnspan=2)
-        print("date[]:", self.date)
 
     def print_amount(self):
-        cut_images = app.capture_amount(self.file_name)
+        cut_images = app_bash.capture_amount(self.file_name)
         for img in cut_images:
-            detect_number = app.restore_model(img)
+            detect_number = app_bash.restore_model(img)
             self.amount.append(detect_number)
         Label(self.frame, text="(预测)金额为:").grid(row=3, column=0, columnspan=2)
         Label(self.frame, text=self.amount).grid(row=3, column=2, columnspan=2)
+
+    def chose_analysis_image(self):
+        self.select_file()
+        print("file_name:", self.file_name)
+        self.open_image()
+        print("img:", self.img)
+        self.print_date()
+        print("date[]:", self.date)
+        self.print_amount()
         print("amount[]:", self.amount)
 
-    def analysis_image(self):
-        self.select_file()
+    # D:/workspace/基于卷积神经网络识别金融票据中的数字串/NumberStringsRecognizorInFinancialBills/pic/hk_check.jpg
+    def entry_analysis_image(self):
+        print("file_name:", self.file_name)
         self.open_image()
+        print("img:", self.img)
         self.print_date()
+        print("date[]:", self.date)
         self.print_amount()
+        print("amount[]:", self.amount)
 
 
 root = Tk(className="基于卷积神经网络识别金融票据中的数字串")
