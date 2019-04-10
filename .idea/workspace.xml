@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +70,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="3229" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3231" />
     <option name="height" value="1827" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -196,7 +194,7 @@
       <workItem from="1554859954251" duration="238000" />
       <workItem from="1554865269364" duration="3313000" />
       <workItem from="1554871164669" duration="507000" />
-      <workItem from="1554872890616" duration="4273000" />
+      <workItem from="1554872890616" duration="4906000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -366,11 +364,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554877994847</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="04.10.13.48 - ALL CLEAR !!">
+      <created>1554880426589</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1554880426589</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78377000" />
+    <option name="totallyTimeSpent" value="79010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,6 +388,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21102248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

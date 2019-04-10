@@ -1,18 +1,28 @@
 ﻿作品使用指南
 
 目录说明:
-#   pic存放了一些测试图片
+#   .idea为PyCharm生成的调试文件
+#   __pycache__储存了作品的pyc文件
 #   data为mnist中的训练图片库
+#   dist储存了作品的可执行程序
 #   model为训练的模型
+#   pic存放了一些测试图片
+#   spec文件为编译生成的二进制文件
 
-程序说明:
+#.exe说明:
+#   forward.exe为前向传播文件
+#   backward.exe为反响传播文件(运行即训练新的模型)
+#   test.exe为测试文件(读取当前精确度和训练轮数)
+#   app_num_ch.exe为单数字符识别程序
+#   app_num_str.exe为数字串识别程序
+#   app_bash.exe为金融票据符识别程序
+#   app_gui.exe为金融票据识别程序的GUI程序
+
+.py说明:
 #   forward.py为前向传播文件
 #   backward.py为反响传播文件(运行即训练新的模型)
 #   test.py为测试文件(读取当前精确度和训练轮数)
 #   app_num_ch.py为单数字符识别程序
 #   app_num_str.py为数字串识别程序
-#   app.py为金融票据符识别程序
-#   app_gui.py为金融票据识别程序的GUI
-
-
-#[!]app_gui.py为作品( < - 直接运行此文件即可)
+#   app_bash.py为金融票据符识别程序
+#   app_gui.py为金融票据识别程序的GUI程序
