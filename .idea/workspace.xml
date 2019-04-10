@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="04.10.13.48 - ALL CLEAR !!">
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -196,7 +196,7 @@
       <workItem from="1554859954251" duration="238000" />
       <workItem from="1554865269364" duration="3313000" />
       <workItem from="1554871164669" duration="507000" />
-      <workItem from="1554872890616" duration="3641000" />
+      <workItem from="1554872890616" duration="4273000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -359,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554875333165</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="04.10.13.48 - ALL CLEAR !!">
+      <created>1554877994847</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1554877994847</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77745000" />
+    <option name="totallyTimeSpent" value="78377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +397,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50181293" side_tool="true" visible="true" weight="0.271261" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50181293" side_tool="true" weight="0.271261" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32866043" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4981871" weight="0.271261" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
