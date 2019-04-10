@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="" />
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="184">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
               <folding>
                 <element signature="e#16#37#0" expanded="true" />
               </folding>
@@ -73,6 +75,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,7 +87,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +192,9 @@
       <module name="NumberStringsInFinancialBillsRecognizor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -336,6 +341,7 @@
       <workItem from="1554785603340" duration="238000" />
       <workItem from="1554785977082" duration="2381000" />
       <workItem from="1554813434081" duration="5760000" />
+      <workItem from="1554859954251" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -488,7 +494,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69509000" />
+    <option name="totallyTimeSpent" value="69855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,7 +509,7 @@
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17548949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17766498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -516,9 +522,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003626" side_tool="true" weight="0.27102804" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50181293" side_tool="true" weight="0.27232796" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32866043" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49963742" visible="true" weight="0.27272728" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4981871" weight="0.271261" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -643,9 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainwindow.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mainwindow.py" />
     <entry file="file://$PROJECT_DIR$/app_num_str.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -669,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="184">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
           <folding>
             <element signature="e#16#37#0" expanded="true" />
           </folding>
