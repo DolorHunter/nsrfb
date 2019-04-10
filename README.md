@@ -5,7 +5,7 @@
 [![Python3](https://img.shields.io/badge/Python-3-green.svg)](https://github.com/topics/python)
 [![Tensorflow](https://img.shields.io/badge/Tensorflow-1.0-yellow.svg)](https://github.com/tensorflow)
 [![Version](https://img.shields.io/badge/Release-v3.0-orange.svg)](releases)
-[![Size](https://img.shields.io/badge/size-1.50GB-red.svg)]()
+[![Size](https://img.shields.io/badge/size-972MB-red.svg)]()
 
 
 **基于卷积神经网络识别金融票据中的手写数字串**
