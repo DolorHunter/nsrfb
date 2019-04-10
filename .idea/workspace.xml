@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_gui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#16#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="23">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -76,7 +72,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,6 +83,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +181,8 @@
       <workItem from="1554785977082" duration="2381000" />
       <workItem from="1554813434081" duration="5760000" />
       <workItem from="1554859954251" duration="238000" />
-      <workItem from="1554865269364" duration="2282000" />
+      <workItem from="1554865269364" duration="3313000" />
+      <workItem from="1554871164669" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -334,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554820214433</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="04.10.11.43 - deal with pyinstaller XD&#10;&#10;Change the quit to sys.exit() for pyinstaller cannot read it">
+      <created>1554867861562</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1554867861562</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72307000" />
+    <option name="totallyTimeSpent" value="73845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,9 +355,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17984046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18201596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -421,10 +424,11 @@
     <MESSAGE value="04.09.12.45 - GUI framework done&#10;&#10;Change the filename of app.py to app_bash.py" />
     <MESSAGE value="04.09.13.20 - GUI framework done&#10;&#10;Change the import of app.py to app_bash.py&#10;Find entry path to analysis image has a bug XD" />
     <MESSAGE value="04.09.22.28 - app_gui.py DONE&#10;&#10;Fix the bug of the entry and Change the scale of the Image" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.09.22.28 - app_gui.py DONE&#10;&#10;Fix the bug of the entry and Change the scale of the Image" />
+    <MESSAGE value="04.10.11.43 - deal with pyinstaller XD&#10;&#10;Change the quit to sys.exit() for pyinstaller cannot read it" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.10.11.43 - deal with pyinstaller XD&#10;&#10;Change the quit to sys.exit() for pyinstaller cannot read it" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554866627379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554871195232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
@@ -522,11 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#16#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
