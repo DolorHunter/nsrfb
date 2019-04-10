@@ -1,5 +1,6 @@
 # coding:utf-8
 
+
 from tkinter import *
 from tkinter import filedialog
 from tkinter import messagebox
@@ -23,7 +24,7 @@ class app_gui:
         self.file_button.grid(row=0, column=2)
         self.help_button = Button(self.frame, text="    帮助    ", command=self.help)
         self.help_button.grid(row=0, column=3)
-        self.quit_button = Button(self.frame, text="退出", command=quit)
+        self.quit_button = Button(self.frame, text="退出", command=sys.exit)
         self.quit_button.grid(row=0, column=4)
 
     def center_window(self, w=300, h=200):
