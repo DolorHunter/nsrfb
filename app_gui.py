@@ -41,6 +41,7 @@ class app_gui:
         self.help()
 
     def select_file(self):
+        self.path_entry.delete(0, END)
         self.file_name = filedialog.askopenfilename()
         self.path_entry.insert(0, self.file_name)
 
@@ -57,6 +58,7 @@ class app_gui:
         Label(self.frame, image=self.img).grid(row=1, column=0, columnspan=5)
 
     def print_date(self):
+        self.date = []
         cut_images = app_bash.capture_date(self.file_name)
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
@@ -65,6 +67,7 @@ class app_gui:
         Label(self.frame, text=self.date).grid(row=2, column=2, columnspan=2)
 
     def print_amount(self):
+        self.amount = []
         cut_images = app_bash.capture_amount(self.file_name)
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
