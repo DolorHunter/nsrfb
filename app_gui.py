@@ -14,8 +14,8 @@ class app_gui:
         self.frame.pack()
         self.file_name = StringVar()     # 目标路径
         self.img = StringVar()           # 图片
-        self.date = []                   # 预测的日期
-        self.amount = []                 # 预测的金额
+        self.date = StringVar()          # 预测的日期
+        self.amount = StringVar()        # 预测的金额
         self.path_label = Label(self.frame, text="目标路径:")
         self.path_label.grid(row=0, column=0)
         self.path_entry = Entry(self.frame, textvariable=self.file_name, state="normal")
