@@ -5,7 +5,7 @@
 [![Python3](https://img.shields.io/badge/Python-3-green.svg)](https://github.com/topics/python)
 [![Tensorflow](https://img.shields.io/badge/Tensorflow-1.0-yellow.svg)](https://github.com/tensorflow)
 [![Version](https://img.shields.io/badge/Release-v3.0-orange.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
-[![Size](https://img.shields.io/badge/Size-972MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/v3.0.zip)
+[![Size](https://img.shields.io/badge/Size-973MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/v3.1.zip)
 
 
 **基于卷积神经网络识别金融票据中的手写数字串**
