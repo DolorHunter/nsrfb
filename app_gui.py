@@ -26,6 +26,16 @@ class app_gui:
         self.help_button.grid(row=0, column=3)
         self.quit_button = Button(self.frame, text="退出", command=sys.exit)
         self.quit_button.grid(row=0, column=4)
+        self.img_label = Label(self.frame)
+        self.img_label.grid(row=1, column=0, columnspan=5)
+        self.date_label_1 = Label(self.frame, text="")
+        self.date_label_1.grid(row=2, column=0, columnspan=2)
+        self.date_label_2 = Label(self.frame, text="")
+        self.date_label_2.grid(row=2, column=2, columnspan=2)
+        self.amount_label_1 = Label(self.frame, text="")
+        self.amount_label_1.grid(row=3, column=0, columnspan=2)
+        self.amount_label_2 = Label(self.frame, text="")
+        self.amount_label_2.grid(row=3, column=2, columnspan=2)
 
     def center_window(self, w=300, h=200):
         ws = root.winfo_screenwidth()
@@ -38,7 +48,7 @@ class app_gui:
         messagebox.showwarning('Need Help?', 'NOT GONNA HELP!!')
         print("NOT GONNA HELP!!")
         # EXTREMELY IMPORTANT DONT DELETE
-        self.help()
+        # self.help()
 
     def select_file(self):
         self.path_entry.delete(0, END)
@@ -55,7 +65,7 @@ class app_gui:
         self.img = ImageTk.PhotoImage(image=image)  # 处理格式
         # 不写有几率会炸
         self.img.image = self.img
-        Label(self.frame, image=self.img).grid(row=1, column=0, columnspan=5)
+        self.img_label["image"] = self.img
 
     def print_date(self):
         self.date = []
@@ -63,8 +73,8 @@ class app_gui:
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
             self.date.append(detect_number)
-        Label(self.frame, text="(预测)日期为:").grid(row=2, column=0, columnspan=2)
-        Label(self.frame, text=self.date).grid(row=2, column=2, columnspan=2)
+        self.date_label_1["text"] = "(预测)金额为:"
+        self.date_label_2["text"] = self.date
 
     def print_amount(self):
         self.amount = []
@@ -72,8 +82,8 @@ class app_gui:
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
             self.amount.append(detect_number)
-        Label(self.frame, text="(预测)金额为:").grid(row=3, column=0, columnspan=2)
-        Label(self.frame, text=self.amount).grid(row=3, column=2, columnspan=2)
+        self.amount_label_1["text"] = "(预测)日期为:"
+        self.amount_label_2["text"] = self.amount
 
     def analysis_image(self):
         self.select_file()
