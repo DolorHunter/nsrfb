@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['app_gui.py'],
-             pathex=['D:\\workspace\\基于卷积神经网络识别金融票据中的数字串\\NumberStringsRecognizorInFinancialBills'],
+             pathex=['D:\\workspace\\基于卷积神经网络识别金融票据中的数字串\\NumberStringsRecognizerInFinancialBills'],
              binaries=[],
              datas=[],
              hiddenimports=[],
