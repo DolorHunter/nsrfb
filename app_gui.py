@@ -73,7 +73,7 @@ class app_gui:
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
             self.date.append(detect_number)
-        self.date_label_1["text"] = "(预测)金额为:"
+        self.date_label_1["text"] = "(预测)日期为:"
         self.date_label_2["text"] = self.date
 
     def print_amount(self):
@@ -82,7 +82,7 @@ class app_gui:
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
             self.amount.append(detect_number)
-        self.amount_label_1["text"] = "(预测)日期为:"
+        self.amount_label_1["text"] = "(预测)金额为:"
         self.amount_label_2["text"] = self.amount
 
     def analysis_image(self):
