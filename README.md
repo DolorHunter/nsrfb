@@ -6,11 +6,13 @@
 [![Tensorflow](https://img.shields.io/badge/Tensorflow-1.0-yellow.svg)](https://github.com/tensorflow)
 [![Version](https://img.shields.io/badge/Release-v3.1-orange.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
 [![Size](https://img.shields.io/badge/Size-973MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
+[![Price](https://img.shields.io/badge/Price-$%200-blueviolet.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
+[![Donate](https://img.shields.io/badge/Coffee-fee-ff69b4.svg)](https://www.paypal.me/dolor059)
 
 
 **基于卷积神经网络识别金融票据中的手写数字串**
 
-本项目为2019大学生计算机设计大赛参赛项目  待比赛结束后将会把项目完整的释出 敬请期待
+`本项目为2019大学生计算机设计大赛参赛项目``待比赛结束后将会把项目完整的释出 敬请期待`
 
 ___________________________
 
