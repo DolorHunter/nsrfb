@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://github.com/topics/windows)
 [![Python3](https://img.shields.io/badge/Python-3-green.svg)](https://github.com/topics/python)
 [![Tensorflow](https://img.shields.io/badge/Tensorflow-1.0-yellow.svg)](https://github.com/tensorflow)
-[![Version](https://img.shields.io/badge/Release-v3.0-orange.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
+[![Version](https://img.shields.io/badge/Release-v3.1-orange.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
 [![Size](https://img.shields.io/badge/Size-973MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
 
 
