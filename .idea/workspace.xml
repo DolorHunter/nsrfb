@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="04.11.20.06 - Fix Issue #4&#10;&#10;All three issues from #4 have been fixed">
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_gui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app_gui.py">
+        <entry file="file://$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0202/0202.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-              <folding>
-                <element signature="e#17#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="227">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -61,14 +57,17 @@
         <option value="$PROJECT_DIR$/pic/mainwindow.py" />
         <option value="$PROJECT_DIR$/mainwindow.py" />
         <option value="$PROJECT_DIR$/app_gui.py" />
+        <option value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201/test.py" />
+        <option value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201/0201.py" />
+        <option value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0203/0203.py" />
+        <option value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0202/0202.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="3231" />
-    <option name="height" value="1827" />
+    <option name="width" value="1627" />
+    <option name="height" value="1814" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,8 +77,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,8 +113,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="app_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.0202">
+    <configuration name="0201" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NumberStringsInFinancialBillsRecognizor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,12 +122,78 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_gui.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201/0201.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="0202" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NumberStringsInFinancialBillsRecognizor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0202" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0202/0202.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="0203" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NumberStringsInFinancialBillsRecognizor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0203" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0203/0203.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NumberStringsInFinancialBillsRecognizor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +204,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app_gui" />
+        <item itemvalue="Python.0202" />
+        <item itemvalue="Python.0203" />
+        <item itemvalue="Python.0201" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +255,9 @@
       <workItem from="1554980239684" duration="5331000" />
       <workItem from="1554989872937" duration="206000" />
       <workItem from="1555161600664" duration="597000" />
-      <workItem from="1555234447618" duration="263000" />
+      <workItem from="1555234447618" duration="685000" />
+      <workItem from="1555746014058" duration="32000" />
+      <workItem from="1555747124113" duration="9794000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -420,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554984762125</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="04.14.17.24 - Fix the label incorrect information&#10;&#10;Dont know when write the text in the wrong position, pretty weird">
+      <created>1555235039109</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1555235039109</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93054000" />
+    <option name="totallyTimeSpent" value="103302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,15 +513,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1435" height="812" extended-state="7" />
+    <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.23567803" />
+      <window_info content_ui="combo" id="Project" order="0" show_stripe_button="false" sideWeight="0.49780703" weight="0.5025381" />
       <window_info id="Structure" order="1" sideWeight="0.502193" side_tool="true" weight="0.21972443" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3313783" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32551318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,7 +536,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32994923" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.46120378" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" x="0" y="0" width="308" height="572" id="Documentation" order="5" side_tool="true" weight="0.5750751" />
     </layout>
@@ -526,11 +603,16 @@
     <MESSAGE value="04.11.12.41 - Make the new label to cover old one" />
     <MESSAGE value="04.11.19.22 - Fix the Path Label #4&#10;&#10;But dont know why set the StringVar() didnt change things in label" />
     <MESSAGE value="04.11.20.06 - Fix Issue #4&#10;&#10;All three issues from #4 have been fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.11.20.06 - Fix Issue #4&#10;&#10;All three issues from #4 have been fixed" />
+    <MESSAGE value="04.14.17.24 - Fix the label incorrect information&#10;&#10;Dont know when write the text in the wrong position, pretty weird" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.14.17.24 - Fix the label incorrect information&#10;&#10;Dont know when write the text in the wrong position, pretty weird" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizerInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1555234471213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NumberStringsRecognizorInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1554872905920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NumberStringsRecognizerInFinancialBills$0201.coverage" NAME="0201 Coverage Results" MODIFIED="1555750393856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201" />
+    <SUITE FILE_PATH="coverage/NumberStringsRecognizerInFinancialBills$0203.coverage" NAME="0203 Coverage Results" MODIFIED="1555756753411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0203" />
+    <SUITE FILE_PATH="coverage/NumberStringsRecognizerInFinancialBills$test.coverage" NAME="test Coverage Results" MODIFIED="1555748551693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201" />
+    <SUITE FILE_PATH="coverage/NumberStringsRecognizerInFinancialBills$0202.coverage" NAME="0202 Coverage Results" MODIFIED="1555756926268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0202" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
@@ -644,11 +726,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        <state relative-caret-position="529">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
           <folding>
             <element signature="e#17#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#114#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0201/0201.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#114#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0203/0203.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#102#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0202/0202.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
