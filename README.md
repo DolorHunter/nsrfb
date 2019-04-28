@@ -6,7 +6,7 @@
 [![Python3](https://img.shields.io/badge/Python-3-green.svg)](https://github.com/topics/python)
 [![Developer](https://img.shields.io/badge/Developer-%202-%232E8B57.svg)](#开发人员名单)
 [![Version](https://img.shields.io/badge/Release-v3.1-orange.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
-[![Size](https://img.shields.io/badge/Size-973MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
+[![Size](https://img.shields.io/badge/Size-539MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
 [![Price](https://img.shields.io/badge/Price-$%200-blueviolet.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
 [![Donate](https://img.shields.io/badge/Coffee-fee-ff69b4.svg)](https://www.paypal.me/dolor059)
 

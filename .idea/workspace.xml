@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_bash.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_gui.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_num_ch.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_num_str.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backward.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app_bash.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app_gui.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app_num_ch.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app_num_str.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/backward.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/forward.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forward.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.exe" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +27,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/bin/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2833">
-                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <first_editor relative-caret-position="46">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -68,6 +80,7 @@
         <option value="$USER_HOME$/OneDrive/HFUT/Start _Farming_Now/Python玩转大数据/exp2/0202/0202.py" />
         <option value="$PROJECT_DIR$/app_bash.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/bin/README.md" />
       </list>
     </option>
   </component>
@@ -90,6 +103,11 @@
             <path>
               <item name="NumberStringsRecognizerInFinancialBills" type="b2602c69:ProjectViewProjectNode" />
               <item name="NumberStringsRecognizerInFinancialBills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NumberStringsRecognizerInFinancialBills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NumberStringsRecognizerInFinancialBills" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +296,9 @@
       <workItem from="1555747124113" duration="9794000" />
       <workItem from="1555817109806" duration="421000" />
       <workItem from="1555899531287" duration="403000" />
-      <workItem from="1556424151437" duration="726000" />
+      <workItem from="1556424151437" duration="902000" />
+      <workItem from="1556425986608" duration="14000" />
+      <workItem from="1556426982901" duration="590000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -532,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555817244877</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="04.28.12.29 - Update the demo">
+      <created>1556425794035</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1556425794035</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104852000" />
+    <option name="totallyTimeSpent" value="105632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,10 +576,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.502193" side_tool="true" weight="0.21972443" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49780703" visible="true" weight="0.1986947" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49780703" visible="true" weight="0.20449601" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32551318" />
@@ -563,7 +591,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3240469" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50181293" side_tool="true" weight="0.27086383" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50181293" side_tool="true" visible="true" weight="0.26979473" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32844576" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4981871" weight="0.271261" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -613,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04.07.14.05" />
     <MESSAGE value="04.07.14.05 耦合度高" />
     <MESSAGE value="04.07.15.27" />
     <MESSAGE value="04.08.10.57" />
@@ -638,7 +665,8 @@
     <MESSAGE value="04.11.20.06 - Fix Issue #4&#10;&#10;All three issues from #4 have been fixed" />
     <MESSAGE value="04.14.17.24 - Fix the label incorrect information&#10;&#10;Dont know when write the text in the wrong position, pretty weird" />
     <MESSAGE value="04.21.11.25 - Add a demo to readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.21.11.25 - Add a demo to readme.md" />
+    <MESSAGE value="04.28.12.29 - Update the demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.28.12.29 - Update the demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizerInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1555234471213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -791,8 +819,18 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2833">
+          <first_editor relative-caret-position="-437">
             <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
