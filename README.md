@@ -1,4 +1,4 @@
-﻿# NumberStringsRecognizerInFinancialBills
+# NumberStringsRecognizerInFinancialBills
 
 [![LICENSE](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows--64-lightgrey.svg)](https://github.com/topics/windows)
