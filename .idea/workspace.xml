@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="04.28.20.37 - Update READMEIMAGE&#10;- Update READMEIMAGE/002.png &amp;&amp; 003.png &amp;&amp; 004.png">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" />
+    <list default="true" id="446b8e65-2cf3-49b0-a29e-8733492c070a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +11,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/CODE_OF_CONDUCT.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="332">
+                <caret line="153" column="75" selection-start-line="153" selection-start-column="75" selection-end-line="153" selection-end-column="75" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,6 +86,8 @@
         <option value="$PROJECT_DIR$/app_bash.py" />
         <option value="$PROJECT_DIR$/bin/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
+        <option value="$PROJECT_DIR$/docs/_config.yml" />
       </list>
     </option>
   </component>
@@ -279,6 +310,7 @@
       <workItem from="1556455041671" duration="1360000" />
       <workItem from="1556625089470" duration="854000" />
       <workItem from="1556688985683" duration="151000" />
+      <workItem from="1556801288536" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="04.07.12.25">
       <created>1554611131365</created>
@@ -560,11 +592,32 @@
       <option name="project" value="LOCAL" />
       <updated>1556455126958</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="05.02.20.48 - Update docs">
+      <created>1556801336910</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1556801336910</updated>
+    </task>
+    <task id="LOCAL-00042" summary="05.02.20.48 - Update docs">
+      <created>1556801368318</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1556801368318</updated>
+    </task>
+    <task id="LOCAL-00043" summary="05.02.20.48 - Update docs">
+      <created>1556801453729</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1556801453729</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108639000" />
+    <option name="totallyTimeSpent" value="109058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,10 +630,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.502193" side_tool="true" weight="0.21972443" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49780703" visible="true" weight="0.21609862" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49780703" visible="true" weight="0.21899928" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32551318" />
@@ -641,7 +695,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04.08.10.57" />
     <MESSAGE value="04.08.12.39 - GUI framework" />
     <MESSAGE value="04.08.13.35 - GUI framework" />
     <MESSAGE value="04.08.13.38 - GUI framework debug&#10;self.xxxx = None" />
@@ -666,7 +719,8 @@
     <MESSAGE value="04.28.12.29 - Update the demo" />
     <MESSAGE value="04.28.13.01 - Optimize the construction and decrease the size&#10;- Delete the repeated files and decrease the size from 973MB to 539MB." />
     <MESSAGE value="04.28.20.37 - Update READMEIMAGE&#10;- Update READMEIMAGE/002.png &amp;&amp; 003.png &amp;&amp; 004.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.28.20.37 - Update READMEIMAGE&#10;- Update READMEIMAGE/002.png &amp;&amp; 003.png &amp;&amp; 004.png" />
+    <MESSAGE value="05.02.20.48 - Update docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.02.20.48 - Update docs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NumberStringsRecognizerInFinancialBills$app_gui.coverage" NAME="app_gui Coverage Results" MODIFIED="1555234471213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -840,6 +894,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/CODE_OF_CONDUCT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="332">
+            <caret line="153" column="75" selection-start-line="153" selection-start-column="75" selection-end-line="153" selection-end-column="75" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
