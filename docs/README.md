@@ -38,7 +38,7 @@ _________________________________
 
 ## 作品效果图
 
-![](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/blob/master/Demo.gif)
+![](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/Demo.gif)
 
 图 2-1 运行效果图
 
