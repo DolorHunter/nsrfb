@@ -38,7 +38,7 @@ _________________________________
 
 ## 作品效果图
 
-![](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/Demo.gif)
+![](READMEIMAGE/001.png)
 
 图 2-1 运行效果图
 
@@ -53,7 +53,7 @@ _________________________________
 
 ## 作品简介
 
-![](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/blob/master/READMEIMAGE/001.png)
+![](READMEIMAGE/001.png)
 
 图 1-1 BARCLAYS支票样例
 
@@ -119,13 +119,13 @@ b)	切片:
 
 假定数字串的每个数字之间存在空隙. 图片从左到右逐列识别, 当图片开始出现黑色时, 认为单数字符出现, 标记该列为出现单数字符的列, 并储存; 当图片全列为白 时, 认为单数字符结束, 标记该列为单数字符消失的列, 并储存. 为了便于说明, 将识别黑色(出现)称为黑检测, 将识别白色(结束)称为白检测. 黑白检测通过bool型变量进行切换. 将数字串的个数和位置信息存储于一维数组. 利用一维数组的数据进行中值切片.
 
-![](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/blob/master/READMEIMAGE/003.png)
+![](READMEIMAGE/003.png)
 
 图 4-1 为输入的图像(18)(预处理 -切片前)
 
 由图4-1可见图像已经经过了反相/去噪点/变形的步骤, 图片元素只有0和255, 尺寸为28*28. 但由于图像(18)还没有经过切片, 所以图中为多个数字符.(1和8).
 
-![](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/blob/master/READMEIMAGE/004.png)
+![](READMEIMAGE/004.png)
 
 图4-2为输入的图像(18)(切片)
 
@@ -152,7 +152,7 @@ d)	输出
 
 * D.	第四部分 – 作品交互性GUI设计
 
-![](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/blob/master/READMEIMAGE/002.png)
+![](READMEIMAGE/002.png)
 
 经过以上三个步骤已经能对于金融票据的图片进行识别了. 但是, 这样的作品不具备交互性和可视化程度, 不能让用户简单容易的使用. 因此, 我们设计了作品的第四部分, 交互性GUI设计.
 
