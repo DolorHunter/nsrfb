@@ -1,4 +1,4 @@
-# NumberStringsRecognizerInFinancialBills
+﻿# NumberStringsRecognizerInFinancialBills
 
 [![LICENSE](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows--64-lightgrey.svg)](https://github.com/topics/windows)
@@ -6,14 +6,8 @@
 [![Python3](https://img.shields.io/badge/Python-3-green.svg)](https://github.com/topics/python)
 [![Developer](https://img.shields.io/badge/Developer-%202-%232E8B57.svg)](#开发人员名单)
 [![Version](https://img.shields.io/badge/Release-v3.1-orange.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
-[![Size](https://img.shields.io/badge/Size-539MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
-[![Price](https://img.shields.io/badge/Price-$%200-blueviolet.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
+[![Size](https://img.shields.io/badge/Size-540MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
 [![Donate](https://img.shields.io/badge/Coffee-fee-ff69b4.svg)](https://www.paypal.me/dolor059)
-
-
-**基于卷积神经网络识别金融票据中的手写数字串**
-
-`本项目为2019大学生计算机设计大赛参赛项目 获<安徽赛区>优胜奖`
 
 ___________________________
 
@@ -37,12 +31,13 @@ _________________________________
 
 ## 作品效果图
 
-![](Demo.gif)
+![](docs/Demo.gif)
 
 图 2-1 运行效果图
 
-由图可见票据的日期为19年06月22日(062219), 程序可以准确的识别; 票据的金额为HK$ 65535, 也能够精准的识别出来, 并显示在图片下方.
 作品首先通过”浏览文件”按钮选择扫描获得的金融票据图片, 就能够把金融票据的图片和路径信息显示在屏幕上. 同时通过程序提取出金融票据中的日期, 金额等信息, 并将这些信息显示在图片的下方. 并且, 作品还设置了帮助按键,使用者通过帮助按钮获得帮助.
+
+**由图可见票据的日期为19年06月22日(062219), 程序可以准确的识别; 票据的金额为HK$ 65535, 也能够精准的识别出来, 并显示在图片下方.**
 
 ## 开发人员名单
 
@@ -52,7 +47,7 @@ _________________________________
 
 ## 作品简介
 
-![](READMEIMAGE/001.png)
+![](docs/Image/001.png)
 
 图 1-1 BARCLAYS支票样例
 
@@ -118,13 +113,13 @@ b)	切片:
 
 假定数字串的每个数字之间存在空隙. 图片从左到右逐列识别, 当图片开始出现黑色时, 认为单数字符出现, 标记该列为出现单数字符的列, 并储存; 当图片全列为白 时, 认为单数字符结束, 标记该列为单数字符消失的列, 并储存. 为了便于说明, 将识别黑色(出现)称为黑检测, 将识别白色(结束)称为白检测. 黑白检测通过bool型变量进行切换. 将数字串的个数和位置信息存储于一维数组. 利用一维数组的数据进行中值切片.
 
-![](READMEIMAGE/003.png)
+![](docs/Image/003.png)
 
 图 4-1 为输入的图像(18)(预处理 -切片前)
 
 由图4-1可见图像已经经过了反相/去噪点/变形的步骤, 图片元素只有0和255, 尺寸为28*28. 但由于图像(18)还没有经过切片, 所以图中为多个数字符.(1和8).
 
-![](READMEIMAGE/004.png)
+![](docs/Image/004.png)
 
 图4-2为输入的图像(18)(切片)
 
@@ -151,7 +146,7 @@ d)	输出
 
 * D.	第四部分 – 作品交互性GUI设计
 
-![](READMEIMAGE/002.png)
+![](docs/Image/002.png)
 
 经过以上三个步骤已经能对于金融票据的图片进行识别了. 但是, 这样的作品不具备交互性和可视化程度, 不能让用户简单容易的使用. 因此, 我们设计了作品的第四部分, 交互性GUI设计.
 
