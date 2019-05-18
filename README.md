@@ -1,15 +1,12 @@
 ﻿# NumberStringsRecognizerInFinancialBills
 
 [![LICENSE](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows--64-lightgrey.svg)](https://github.com/topics/windows)
 [![Tensorflow](https://img.shields.io/badge/Tensorflow-1.0-yellow.svg)](https://github.com/tensorflow)
 [![Python3](https://img.shields.io/badge/Python-3-green.svg)](https://github.com/topics/python)
 [![Developer](https://img.shields.io/badge/Developer-%202-%232E8B57.svg)](#开发人员名单)
 [![Version](https://img.shields.io/badge/Release-v3.1-orange.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
 [![Size](https://img.shields.io/badge/Size-540MB-red.svg)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
 [![Donate](https://img.shields.io/badge/Coffee-fee-ff69b4.svg)](https://www.paypal.me/dolor059)
-
-___________________________
 
 # 目录
 
@@ -27,7 +24,6 @@ __[设计方案](#设计方案)__
 * 第二部分 - 手写数字串识别
 * 第三部分 - 截取金融票据中手写数字所在的位置区域
 * 第四部分 – 作品交互性GUI设计
-_________________________________
 
 ## 作品效果图
 
