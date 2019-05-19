@@ -1,27 +1,24 @@
 # NOTICE
 
-__[中文](#注意)__
+**Executed files DO NOT contain in the master branch due to some reasons. But you can download them here.**
 
-IF YOU WANT TO EXCECUTE THE FILE, PLEASE MOVE THE EXCECUTE FILES TO THE MAIN DIRECTORY OR MOVE MODEL TO THIS DIRECTORY.
+**由于某些原因, 可执行文件并不在master branch中. 但你可以通过以下地址下载他们.**
 
+[app_num_ch.exe]
+(https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases/download/v3.2/app_num_ch.exe)
 
-JUST KEEP THE CONSTRACTION LIKE THIS:
+[app_num_str.exe](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases/download/v3.2/app_num_str.exe)
 
-NumberStringsRecognizerInFinancialBills
+[app_bash.exe](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases/download/v3.2/app_bash.exe)
 
- |- model
+[app_gui.exe](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases/download/v3.2/app_gui.exe)
 
- |- app_bash.exe
-
- |- app_gui.exe
-
- |- ....Other .exe
-
-----------------
-
-# 注意
+IF YOU WANT TO EXECUTE THE FILE, PLEASE MOVE THE EXECUTE FILES TO THE MAIN DIRECTORY OR MOVE MODEL TO THIS DIRECTORY.
 
 如果你想要正确执行文件, 请将可执行文件移动到主目录下或将model文件夹移动到bin文件夹内.
+
+
+JUST KEEP THE CONSTRUCTION LIKE THIS:
 
 请保持这样的结构:
 
@@ -33,4 +30,4 @@ NumberStringsRecognizerInFinancialBills
 
  |- app_gui.exe
 
- |- ....其他可执行文件 .exe
+ |- ....Other .exe
