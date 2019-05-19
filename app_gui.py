@@ -69,7 +69,7 @@ class app_gui:
 
     def print_date(self):
         self.date = []
-        cut_images = app_bash.capture_date(self.file_name)
+        cut_images = app_bash.capture(self.file_name, 'date')
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
             self.date.append(detect_number)
@@ -78,7 +78,7 @@ class app_gui:
 
     def print_amount(self):
         self.amount = []
-        cut_images = app_bash.capture_amount(self.file_name)
+        cut_images = app_bash.capture(self.file_name, 'amount')
         for img in cut_images:
             detect_number = app_bash.restore_model(img)
             self.amount.append(detect_number)
