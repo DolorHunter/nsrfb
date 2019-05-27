@@ -3,9 +3,8 @@
 [![LICENSE](https://img.shields.io/badge/License-Apache--2.0-blue.svg?style=flat-square)](LICENSE)
 [![Tensorflow](https://img.shields.io/badge/Tensorflow-1.13.1-yellow.svg?style=flat-square)](https://github.com/tensorflow)
 [![Python3](https://img.shields.io/badge/Python-3.7.2-green.svg?style=flat-square)](https://github.com/topics/python)
-[![Version](https://img.shields.io/badge/Release-v3.2-red.svg?style=flat-square)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
+[![Version](https://img.shields.io/badge/Release-v3.2-fa69b4.svg?style=flat-square)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/releases)
 [![Size](https://img.shields.io/badge/Size-45MB-%23ff4D5B.svg?style=flat-square)](https://github.com/DolorHunter/NumberStringsRecognizerInFinancialBills/archive/master.zip)
-[![Donate](https://img.shields.io/badge/Coffee-fee-fa69b4.svg?style=flat-square)](https://www.paypal.me/dolor059)
 
 # 目录
 
