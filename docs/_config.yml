@@ -1,5 +1,4 @@
 ﻿title: Number strings recognizer in financial bills based on CNN
 description: 基于卷积神经网络识别金融票据中的数字串
 show_downloads: true
-google_analytics: UA-139329336-2
 theme: jekyll-theme-slate
